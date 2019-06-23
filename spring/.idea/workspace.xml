@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/config/mainconfig.java" line="22" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d4d12f3-8578-4183-8922-fc29bf1df676" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0d4d12f3-8578-4183-8922-fc29bf1df676" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/boss.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            <state relative-caret-position="435">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -481,7 +479,7 @@
       <workItem from="1558876650827" duration="993000" />
       <workItem from="1559268400381" duration="667000" />
       <workItem from="1560782757060" duration="806000" />
-      <workItem from="1561290695624" duration="752000" />
+      <workItem from="1561290695624" duration="1462000" />
     </task>
     <task id="LOCAL-00001" summary="spring注解开发">
       <created>1561290954910</created>
@@ -490,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561290954910</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="spring注解开发">
+      <created>1561291576737</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561291576737</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -526,7 +531,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71846000" />
+    <option name="totallyTimeSpent" value="72556000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,6 +544,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4968254" visible="true" weight="0.24493062" />
       <window_info id="Structure" order="1" sideWeight="0.503962" side_tool="true" weight="0.22785486" />
@@ -1049,8 +1055,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/boss.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="435">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
