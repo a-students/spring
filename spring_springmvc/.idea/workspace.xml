@@ -6,7 +6,90 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1a9b14e-36c5-461a-8fc7-d277e117e67b" name="Default Changelist" comment="" />
+    <list default="true" id="e1a9b14e-36c5-461a-8fc7-d277e117e67b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/aop/LogAspects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/aop/MathCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/bean/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/bean/MybeanPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/bean/People.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/bean/boss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/bean/cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/bean/color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/bean/colorfactorybean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/bean/dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/bean/rain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/bean/red.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/conditional/MyImportBeanDefinitionRegistrar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/conditional/Myimportselector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/conditional/conditional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/config/MainConfigAutowired.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/config/MainConfigOfAOP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/config/MainConfigOfProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/config/MainConfigPropertyValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/config/MainConfigofLifeCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/config/config02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/config/mainconfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/config/typefilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/controller/PeopleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/dao/PeopleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/service/PeopleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/tx/TxConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/resources/application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/resources/people.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/test/java/test/IOCtest_AOP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/test/java/test/IOCtest_Autowired.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/test/java/test/IOCtest_Profiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/test/java/test/IOCtest_PropertyValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/test/java/test/IOCtest_lifecycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/test/java/test/maintest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/META-INF/spring.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/aop/LogAspects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/aop/MathCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/bean/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/bean/MybeanPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/bean/People.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/bean/boss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/bean/cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/bean/color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/bean/colorfactorybean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/bean/dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/bean/rain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/bean/red.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/conditional/MyImportBeanDefinitionRegistrar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/conditional/Myimportselector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/conditional/conditional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/config/MainConfigAutowired.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/config/MainConfigOfAOP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/config/MainConfigOfProfile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/config/MainConfigPropertyValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/config/MainConfigofLifeCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/config/config02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/config/mainconfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/config/typefilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/controller/PeopleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/dao/PeopleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/service/PeopleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/tx/TxConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/people.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/test/IOCtest_AOP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/test/IOCtest_Autowired.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/test/IOCtest_Profiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/test/IOCtest_PropertyValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/test/IOCtest_lifecycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/test/maintest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_springmvc.iml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,6 +110,7 @@
               <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -50,8 +134,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="290">
+              <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -115,6 +199,9 @@
         <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -188,18 +275,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-38" />
-    <option name="y" value="18" />
+    <option name="x" value="29" />
+    <option name="y" value="14" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,36 +333,6 @@
               <item name="spring_springmvc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="chen" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_springmvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="chen" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_springmvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="chen" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_springmvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -286,35 +342,19 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring_springmvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_springmvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_springmvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/Tomcat/apache-tomcat-7.0.64-windows-x64/apache-tomcat-7.0.64/webapps/ROOT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="spring" />
@@ -434,18 +474,17 @@
       <workItem from="1559720199531" duration="656000" />
       <workItem from="1559726911891" duration="129000" />
       <workItem from="1560688228793" duration="13000" />
+      <workItem from="1561290552893" duration="140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10702000" />
+    <option name="totallyTimeSpent" value="10842000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-38" y="18" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="29" y="14" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info id="JRebel" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24546425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24813233" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -453,7 +492,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info id="JRebel" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30167598" />
@@ -470,7 +510,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="right" id="Key Promoter X" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -480,6 +520,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Key Promoter X" order="9" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19797225" />
@@ -762,20 +803,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/BaiduNetdiskDownload/前台框架/01 .bootstrap快速入门/MongoDBController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://D:/BaiduNetdiskDownload/前台框架/01 .bootstrap快速入门/MongoDBController.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1218">
           <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1102">
           <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -817,17 +864,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="290">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
         </state>
       </provider>
     </entry>

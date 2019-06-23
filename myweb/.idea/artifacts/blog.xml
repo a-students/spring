@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="blog">
+    <output-path>$PROJECT_DIR$/out/artifacts/blog</output-path>
+    <root id="archive" name="blog.war">
+      <element id="directory" name="WEB-INF">
+        <element id="module-output" name="myweb" />
+      </element>
+    </root>
+  </artifact>
+</component>

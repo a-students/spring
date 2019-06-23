@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.Userdao">
+    <select id="queryall" resultType="int" parameterType="string">
+        select count(*) from blog_user where username=#{username}
+    </select>
+    <select id="query" resultType="int">
+        select count(*) from blog_user where username=#{username} and password=#{password}
+    </select>
+    <insert id="register" parameterType="entity.User">
+        insert into blog_user values (#{id},#{username},#{password},#{name},#{email},#{code},#{state})
+    </insert>
+    <select id="findBycode" resultType="entity.User">
+        select * from blog_user where email=#{email} and code=#{code}
+    </select>
+    <update id="update" parameterType="entity.User">
+        update blog_user set username=#{username},password=#{password},name=#{name},code=#{code},state=#{state} where
+        id=#{id}
+    </update>
+    <insert id="storage">
+        insert into blog_user(email,code) values (#{email},#{code})
+    </insert>
+    <select id="registerqueryusername" resultType="int" parameterType="string">
+        select count(*) from blog_user where username=#{username}
+    </select>
+    <select id="registerqueryemail" resultType="int" parameterType="string">
+        select count(*) from blog_user where email=#{email}
+    </select>
+    <update id="setcode">
+        update blog_user set code=#{code} where email=#{email}
+    </update>
+    <select id="findpw" resultType="string" parameterType="string">
+        select password from blog_user where username=#{username}
+    </select>
+    <!--修改头像-->
+    <update id="saveimage">
+        update blog_user set image=#{image} where id=#{id}
+    </update>
+    <!--页面加载之初获取头像-->
+    <select id="showimage" parameterType="int" resultType="string">
+        select image from blog_user where id=#{id}
+    </select>
+    <!--修改用户基本信息-->
+    <update id="setinformation">
+        update blog_user set name=#{name},sex=#{sex},birthday=#{birthday},address=#{address} where id=#{id}
+    </update>
+    <!--显示用户基本信息-->
+    <select id="showinformation" parameterType="int" resultType="entity.User">
+        select * from blog_user where id=#{id}
+    </select>
+    <!--用户登录成功后获取用户头像-->
+    <select id="getimage" parameterType="string" resultType="string">
+        select image from blog_user where username=#{username}
+    </select>
+    <!--获取用户信息存入session-->
+    <select id="getuser" resultType="entity.User">
+        select * from blog_user where username=#{username} and password=#{password}
+    </select>
+    <select id="queryuser" parameterType="string" resultType="entity.User">
+        select * from blog_user where username=#{username}
+    </select>
+</mapper>
