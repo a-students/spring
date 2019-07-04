@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                            http://www.springframework.org/schema/context/spring-context.xsd
+                            http://www.springframework.org/schema/tx
+                            http://www.springframework.org/schema/tx/spring-tx.xsd
+                           ">
+    <!--开启注解功能-->
+    <context:annotation-config/>
+    <!--配置扫描包-->
+    <context:component-scan base-package="com.service"/>
+    <!--通过spring标签加载属性文件-->
+    <context:property-placeholder file-encoding="utf-8" location="classpath*:db.properties"/>
+
+    <!--mybatis配置-->
+    <!--配置数据源-->
+    <!--DriverManagerDataSource-->
+    <bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" id="dataSource">
+        <property name="driverClassName" value="${jdbc.driver}"></property>
+        <property name="url" value="${jdbc.url}"></property>
+        <property name="username" value="${jdbc.username}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+    </bean>
+    <!--配置会话工厂:sqlSessionFactory-->
+    <bean class="org.mybatis.spring.SqlSessionFactoryBean" id="SqlSessionFactory">
+        <!--配置数据源-->
+        <property name="dataSource" ref="dataSource"></property>
+        <!--配置mybatis映射文件-->
+        <property name="mapperLocations" value="classpath*:*Mapper.xml"></property>
+        <!--配置类型别名-->
+        <property name="typeAliasesPackage" value="com.bean"/>
+    </bean>
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer" id="configurer">
+        <property name="basePackage" value="com.dao"></property>
+        <property name="sqlSessionFactoryBeanName" value="SqlSessionFactory"/>
+    </bean>
+    <!--配置spring的事务控制-->
+    <bean class="org.springframework.jdbc.datasource.DataSourceTransactionManager" id="transactionManager">
+        <!--配置数据源-->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    <!--开启基于注解的声明式事务-->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</beans>
