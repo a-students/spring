@@ -1,0 +1,26 @@
+
+
+shiro的工作流程:
+    1.获取当前的Subject,调用SecurityUtils.getSubject()；
+    2.测试当前用户是否已经被认证,即是否已经登录,调用Subject的isAuthenticated()
+    3.若没有被认证,则把用户名和密码封装为UsernamePasswordToken对象
+        创建一个表单页面
+        把请求提交到SpringMvc的控制器中
+        获取用户名和密码
+     4.执行登录: 调用Subject的login(UsernamePasswordToken)方法
+     5.自定义Realm的方法,从数据库中获取对应的记录,返回给shiro
+        1)实际上需要继承org.apache.shiro.realm.AuthenticatingRealm类
+        2)实现doGetAuthenticationInfo(UsernamePasswordToken) 方法
+     6.由shiro完成对密码的比对
+            密码比对:
+                通过AuthenticatingRealm的credentiasMatcher属性来进行的密码比对
+            1.如何把一个字符串加密为MD5
+            2.替换当前realm的credentialsMatcher属性,直接使用HashedCredentialsMatcher对象,并设置加密算法即可
+                1.为什么使用MD5盐值加密:
+                2.如何做到
+                    1)在doGetAuthenticationInfo方法返回值创建SimpleAuthenticationInfo对象时,需要使用
+                    SimpleAuthenticationInfo(Principal,Credentials,credentialsSalt,realmName) 构造器
+                    2) 使用ByteSource.Util.bytes() 来计算盐值
+                    3) 盐值需要唯一: 一般使用随机字符串或者user id
+                    4) 使用 new SimpleHash(hashAlgorithmName, Credentials, salt, hashiterations)来计算盐值加密后的密码的值
+

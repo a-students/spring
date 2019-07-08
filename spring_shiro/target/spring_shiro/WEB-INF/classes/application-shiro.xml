@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="cacheManager" ref="cacheManager"></property>
+        <property name="realm" ref="myrealm"></property>
+    </bean>
+    <bean id="cacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+        <property name="cacheManagerConfigFile" value="classpath:ehcache.xml"/>
+    </bean>
+
+
+    <bean id="myrealm" class="realm.Myrealm">
+        <property name="credentialsMatcher">
+            <bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+                <property name="hashAlgorithmName" value="MD5"></property>
+                <property name="hashIterations" value="2"></property>
+            </bean>
+        </property>
+    </bean>
+
+    <!--配置lifecycleBeanPostProcessor
+        可以自动的来调用Spring IOC 容器中shiro bean的声明周期方法
+    -->
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor">
+    </bean>
+    <!--启用IOC容器中使用shiro的注解,但必须配置lifecycleBeanPostProcessor之后才可以使用-->
+    <bean id="advisorAutoProxyCreator" class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator" depends-on="lifecycleBeanPostProcessor">
+
+    </bean>
+
+    <!--配置shirofilter
+        id必须和web.xml文件中配置的<filter-name>值一致
+    -->
+    <bean id="shirofilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <property name="securityManager" ref="securityManager"></property>
+        <property name="loginUrl" value="/login.jsp"></property>
+        <property name="successUrl" value="/success.jsp"></property>
+        <property name="unauthorizedUrl" value="/list.jsp"></property>
+        <!--配置哪些页面需要受到保护
+            以及访问这些页面所需的权限
+            anon:可以被匿名访问
+            authc:必须认证后才可以访问的页面
+        -->
+        <property name="filterChainDefinitions">
+            <value>
+                /login.jsp = anon
+                /shiro/login = anon
+                /** = authc
+            </value>
+        </property>
+    </bean>
+</beans>

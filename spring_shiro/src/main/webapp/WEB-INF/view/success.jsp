@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-    <a href="getusers">getusers</a>
+    Success Page
 </body>
 </html>
