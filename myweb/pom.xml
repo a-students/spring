@@ -120,7 +120,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-beans</artifactId>
-            <version>5.1.3.RELEASE</version>
+            <version>5.3.18</version>
         </dependency>
         <!--导入springmvc的jar包-->
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
